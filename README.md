@@ -1,6 +1,10 @@
 # env
 settings for my personal environment as a developer
 
+## prezto
+zsh周りはpreztoで整備する。
+[Macのzsh+Prezto環境を整える](https://qiita.com/Holoyu/items/bccc4901f6a9d1eb58ff)
+
 ## scripts
 開発環境整備に使うスクリプト群を格納する。
 
@@ -19,4 +23,13 @@ VSCodeのback quote対策に使う。
 - aliasのpydefaultで仮想環境を使用できる。
 
 ## Docker
+開発で共通に使用するdockerを配置する。
+### MySQL
+DB関係の技術の勉強に使う。
+ディレクトリは以下の通り。
+docker
+ -mysql
+  -data
+  -logs
+  -init
 

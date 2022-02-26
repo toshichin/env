@@ -1,0 +1,16 @@
+pip-review
+jupyter
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+tqdm
+plotly
+requests
+beautifulsoup4
+lxml
+selenium
+Flask
+Flask-Bootstrap4
