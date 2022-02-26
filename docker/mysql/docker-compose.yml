@@ -1,0 +1,16 @@
+version: "3"
+services:
+  db:
+    image: mysql:8.0
+    volumes:
+      - ./data:/var/lib/mysql
+      - ./logs:/var/log/mysql
+      - ./docker/settings/conf.d/my.cnf:/etc/mysql/conf.d/my.cnf
+    environment:
+      - MYSQL_DATABASE=${DB_NAME}
+      - MYSQL_USER=${DB_USER}
+      - MYSQL_PASSWORD=${DB_PASS}
+      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASS}
+      - TZ=${TZ}
+    ports:
+      - ${DB_PORT}:3306
