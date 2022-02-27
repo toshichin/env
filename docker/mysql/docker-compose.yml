@@ -6,6 +6,8 @@ services:
       - ./data:/var/lib/mysql
       - ./logs:/var/log/mysql
       - ./docker/settings/conf.d/my.cnf:/etc/mysql/conf.d/my.cnf
+    container_name: mysql_container
+    env_file: ./.env_mysql
     environment:
       - MYSQL_DATABASE=${DB_NAME}
       - MYSQL_USER=${DB_USER}
