@@ -4,6 +4,13 @@
 新しい順に記載する。
 集中して調べたことは個別のファイルに記載する。
 
+## [VScode]preview style for Markdown
+[VSCodeのmarkdownプレビューの背景色・見出しなどを見やすく拡張機能](https://creating-homepage.com/archives/9189)
+Markdown-preview-enhancedを使っているので、設定だけで変更できた。
+
+GitHubのCSSを使う方法は下記のサイトなどを参照。
+[vscodeのmarkdown css変更メモ](https://qiita.com/hirodona78/items/1734abce33288cc200c8)
+
 ## DBeaver
 SQLクライアント。
 ### インストール
